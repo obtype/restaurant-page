@@ -1,5 +1,8 @@
 import './style.css';
+import { initPage } from './initialise';
 
 
 console.log("The thing compiled properly.");
-console.log("test for agaign.");
+
+
+initPage();

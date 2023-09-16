@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `*{\n    color:rgb(64, 105, 116);\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `*{\n    color:rgb(162, 45, 18);\n    font-family: 'Bebas Neue';\n}\n\nbody{\n    margin: 0px;\n    font-size: 20px;\n}\n\n.header{\n    background-color: beige;\n}\n\n.title{\n    font-size: 48px;\n\n}\n\n.pages {\n    display:flex;\n    list-style-type: none;\n    justify-content: space-around;\n    \n}\n\n\n.main{\n    background-color: rgb(240, 221, 167);\n\n    /* height:max(200px, fit-content); */\n    height: 200px;\n}\n\n.footer{\n    background-color: rgb(217, 181, 134);\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -37,6 +37,16 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://restaurant-page/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/coffee-image1.png":
+/*!*******************************!*\
+  !*** ./src/coffee-image1.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"images/coffee-image1.png\");\n\n//# sourceURL=webpack://restaurant-page/./src/coffee-image1.png?");
 
 /***/ }),
 
@@ -110,13 +120,33 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/home.js":
+/*!*********************!*\
+  !*** ./src/home.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createHomeNode: () => (/* binding */ createHomeNode),\n/* harmony export */   generatePage: () => (/* binding */ generatePage)\n/* harmony export */ });\n/* harmony import */ var _coffee_image1_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./coffee-image1.png */ \"./src/coffee-image1.png\");\n\n\n\n\n\nfunction aboutNode(){\n    let container = document.createElement('div');\n\n\n    return container;\n\n}\n\n\nfunction reviewNode(){\n    let container = document.createElement('div');\n\n\n    return container;\n}\n\n\nfunction createHomeNode(){\n    let home = document.createElement('div');\n\n    let image_coffee = document.createElement('img');\n    image_coffee.src = _coffee_image1_png__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\n    image_coffee.width = 100;\n    console.log(_coffee_image1_png__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n    \n    home.appendChild(image_coffee);\n    home.appendChild(reviewNode());\n    home.appendChild(aboutNode());\n    return home;\n}\n\nfunction generatePage(){\n    \n    let content = document.querySelector('div#content');\n\n    content.appendChild(createHomeNode());\n}\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\nconsole.log(\"The thing compiled properly.\");\nconsole.log(\"test for agaign.\");\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _initialise__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./initialise */ \"./src/initialise.js\");\n\n\n\n\nconsole.log(\"The thing compiled properly.\");\n\n\n(0,_initialise__WEBPACK_IMPORTED_MODULE_1__.initPage)();\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/initialise.js":
+/*!***************************!*\
+  !*** ./src/initialise.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   initPage: () => (/* binding */ initPage)\n/* harmony export */ });\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n\n\n\nfunction initHeader(){\n    let header = document.createElement('div');\n\n    header.classList.add('header');\n    let headerTitle = document.createElement('div')\n    headerTitle.classList.add(\"title\");\n    headerTitle.textContent = \"Sip Cocoa\";\n    \n    let headerList = document.createElement('ul');\n    headerList.classList.add('pages');\n    headerList.appendChild(document.createElement('li'));\n    headerList.appendChild(document.createElement('li'));\n    headerList.appendChild(document.createElement('li'));\n\n    headerList.childNodes[0].textContent = \"Home\";\n    headerList.childNodes[1].textContent = \"Menu\";\n    headerList.childNodes[2].textContent = \"Contact\";\n\n    \n    \n    \n    header.appendChild(headerTitle);\n    header.appendChild(headerList);\n\n    return header;\n\n}\n\nfunction initMain(){\n    let main = (0,_home_js__WEBPACK_IMPORTED_MODULE_0__.createHomeNode)();\n    main.classList.add('main');\n    return main;\n}\n\nfunction initFooter(){\n    let footer= document.createElement('div');\n    footer.classList.add(\"footer\");\n\n    footer.textContent = \"By Obtype.\";\n\n    return footer;\n}\n\n\nfunction initPage() {\n    console.log('testing import statement')\n    //all the elements and stuff that I make here are going to be added as a child to the div.content tag in my index.html file.\n\n    let content = document.querySelector(\"div#content\");\n\n    content.appendChild(initHeader());\n    content.appendChild(initMain());\n    content.appendChild(initFooter());\n\n}\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/initialise.js?");
 
 /***/ })
 

@@ -1,3 +1,37 @@
 *{
-    color:rgb(64, 105, 116);
+    color:rgb(162, 45, 18);
+    font-family: 'Bebas Neue';
+}
+
+body{
+    margin: 0px;
+    font-size: 20px;
+}
+
+.header{
+    background-color: beige;
+}
+
+.title{
+    font-size: 48px;
+
+}
+
+.pages {
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+    
+}
+
+
+.main{
+    background-color: rgb(240, 221, 167);
+
+    /* height:max(200px, fit-content); */
+    height: 200px;
+}
+
+.footer{
+    background-color: rgb(217, 181, 134);
 }
