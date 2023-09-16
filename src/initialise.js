@@ -39,7 +39,7 @@ function initFooter(){
     let footer= document.createElement('div');
     footer.classList.add("footer");
 
-    footer.textContent = "By Obtype.";
+    footer.textContent = "An Obtype creation.";
 
     return footer;
 }

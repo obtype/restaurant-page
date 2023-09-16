@@ -1,11 +1,33 @@
 *{
     color:rgb(162, 45, 18);
     font-family: 'Bebas Neue';
+    /* background-color: rgb(240, 221, 167); */
+    font-size: 25px;
+    /* white-space: pre-line; */
+    
 }
 
 body{
     margin: 0px;
     font-size: 20px;
+    height: 100vh;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    border-radius: 7px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+
+    height:100%;
+
 }
 
 .header{
@@ -13,8 +35,16 @@ body{
 }
 
 .title{
-    font-size: 48px;
+    font-size: 60px;
+    font-weight:900;
 
+}
+
+.main .title{
+    font-size: 50px;
+    font-style: italic;
+    font-weight:600;
+    text-decoration: underline;
 }
 
 .pages {
@@ -22,16 +52,23 @@ body{
     list-style-type: none;
     justify-content: space-around;
     
+    
 }
 
 
 .main{
     background-color: rgb(240, 221, 167);
-
+    padding: 20px;
     /* height:max(200px, fit-content); */
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+    
 }
 
 .footer{
     background-color: rgb(217, 181, 134);
+    display:flex;
+    justify-content: center;
 }
