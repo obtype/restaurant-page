@@ -1,5 +1,6 @@
 import { createHomeNode } from "./home.js";
 import { createMenuNode } from "./menu.js";
+import { createContactNode } from "./contact.js";
 export {initPage};
 
 function initHeader(){
@@ -31,7 +32,7 @@ function initHeader(){
 }
 
 function initMain(){
-    let main = createMenuNode();
+    let main = createContactNode();
     //main.classList.add('main');
     return main;
 }

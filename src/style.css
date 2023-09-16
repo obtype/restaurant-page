@@ -34,10 +34,10 @@ img {
     background-color: beige;
 }
 
-.title{
+.header .title{
     font-size: 60px;
     font-weight:900;
-
+    padding: 15px 40px;
 }
 
 .main .title{
@@ -87,6 +87,19 @@ img {
 
 .comment, .price{
     font-size: smaller;
+}
+
+.contact-page{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
 }
 
 .footer{
