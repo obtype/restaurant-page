@@ -64,12 +64,29 @@ img {
     flex-direction: column;
     justify-content: space-around;
     flex-grow: 1;
+    align-items: center;
     
 }
 
 .item-list{
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    column-gap: 200px;
+    row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top:60px;
+    padding-bottom: 60px;
     
+}
+
+.item{
+    width: max(fit-content, 40%);
+}
+
+.comment, .price{
+    font-size: smaller;
 }
 
 .footer{

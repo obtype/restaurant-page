@@ -18,10 +18,10 @@ const Item = function(name, price, comment , pic=null){
 
 let items = []; 
 
-items[0] = Item("Muffin", 15, "Soft and full of crumbles!", blueberryMuffin);
-items[1] = Item("Caramel Apple", 5, "Crunchy delight that melts in your mouth.", caramelApple);
-items[2] = Item("Black Coffee", 20, "Shot of love.", coffeeCup);
-items[3] = Item("Traditional Chai", 18, "Travel back in time and enter a zen state.", teaCup);
+items[0] = Item("Muffin", '14.99', "Soft and full of crumbles!", blueberryMuffin);
+items[1] = Item("Black Coffee", '19.99', "Shot of love.", coffeeCup);
+items[2] = Item("Caramel Apple", '5.50', "Crunchy delight that melts in your mouth.", caramelApple);
+items[3] = Item("Traditional Chai", '17.50', "Travel back in time and enter a zen state.", teaCup);
 
 
 
@@ -35,20 +35,27 @@ function listMenuItems(){
     let comment = document.createElement('div');
     let picture = document.createElement('img');
 
+
+    itemCardTemplate.classList.add('item');
+    comment.classList.add('comment');
+    price.classList.add('price');
+
+
+    itemCardTemplate.appendChild(picture);
     itemCardTemplate.appendChild(name);
     itemCardTemplate.appendChild(price);
     itemCardTemplate.appendChild(comment);
-    itemCardTemplate.appendChild(picture);
+    
 
 
     for(let i = 0; i < 4; i++){
         let temp = itemCardTemplate.cloneNode(true);
-        temp.childNodes[0].textContent = items[i].name;
-        temp.childNodes[1].textContent = items[i].price;
-        temp.childNodes[2].textContent = items[i].comment;
-        temp.childNodes[3].src = items[i].pic;
+        temp.childNodes[1].textContent = items[i].name;
+        temp.childNodes[2].textContent = `$${items[i].price}`;
+        temp.childNodes[3].textContent = items[i].comment;
+        temp.childNodes[0].src = items[i].pic;
 
-        temp.childNodes[3].width = 200;
+        temp.childNodes[0].width = 290;
         menuItems.appendChild(temp);
     }
     
