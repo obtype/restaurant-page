@@ -1,4 +1,7 @@
-import myImage from './coffee-image1.png';
+import coffeeCup from './coffee-cup2.jpg';
+
+
+
 
 export {generatePage, createHomeNode};
 
@@ -47,13 +50,15 @@ function createHomeNode(){
     let home = document.createElement('div');
 
     let image_coffee = document.createElement('img');
-    image_coffee.src = myImage;
+    image_coffee.src = coffeeCup;
     image_coffee.width = 100;
-    console.log(myImage);
+    console.log(coffeeCup);
     
     home.appendChild(image_coffee);
     home.appendChild(aboutusNode());
     home.appendChild(reviewsNode());
+
+    home.classList.add('main');
     
     return home;
 }

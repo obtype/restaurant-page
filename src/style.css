@@ -67,6 +67,11 @@ img {
     
 }
 
+.item-list{
+    display: grid;
+    
+}
+
 .footer{
     background-color: rgb(217, 181, 134);
     display:flex;

@@ -1,4 +1,5 @@
 import { createHomeNode } from "./home.js";
+import { createMenuNode } from "./menu.js";
 export {initPage};
 
 function initHeader(){
@@ -30,8 +31,8 @@ function initHeader(){
 }
 
 function initMain(){
-    let main = createHomeNode();
-    main.classList.add('main');
+    let main = createMenuNode();
+    //main.classList.add('main');
     return main;
 }
 
