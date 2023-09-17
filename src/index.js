@@ -30,7 +30,31 @@ function clearPage(){
 }
 
 
+function changePage(page){
+    clearPage();
+    if(page ==='home'){
+        generateHomePage();
+    }
+    else if(page === 'menu'){
+        generateMenuPage();
+    }
+    else if(page === 'contact'){
+        generateContactPage();
+    }
+}
 
+
+
+function changePageEvent(a){
+    console.log(a.target.classList.contains('home'));
+    let page = a.target.classList.contains('home') ? 'home' : 
+        a.target.classList.contains('menu') ? 'menu' :
+        a.target.classList.contains('contact') ? 'contact' : null;
+
+    console.log(page);
+
+    changePage(page);
+}
 
 
 initPage();
@@ -43,8 +67,9 @@ let menu = document.querySelector('ul li.menu');
 let contact = document.querySelector('ul li.contact');
 console.log(home,  menu, contact);
 
-/* home.addEventListener('click', () => {
+home.addEventListener('click',changePageEvent);
+menu.addEventListener('click',changePageEvent);
+contact.addEventListener('click',changePageEvent);
 
-}) */
 
 
