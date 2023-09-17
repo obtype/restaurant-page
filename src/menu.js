@@ -20,8 +20,8 @@ let items = [];
 
 items[0] = Item("Muffin", '14.99', "Soft and full of crumbles!", blueberryMuffin);
 items[1] = Item("Black Coffee", '19.99', "Shot of love.", coffeeCup);
-items[2] = Item("Caramel Apple", '5.50', "Crunchy delight that melts in your mouth.", caramelApple);
-items[3] = Item("Traditional Chai", '17.50', "Travel back in time and enter a zen state.", teaCup);
+items[2] = Item("Caramel Apple", '5.50', "Crunchy delight that melts in\r\n your mouth.", caramelApple);
+items[3] = Item("Traditional Chai", '17.50', "Travel back in time and enter\r\n a zen state.", teaCup);
 
 
 
@@ -39,6 +39,7 @@ function listMenuItems(){
     itemCardTemplate.classList.add('item');
     comment.classList.add('comment');
     price.classList.add('price');
+    name.classList.add('name');
 
 
     itemCardTemplate.appendChild(picture);

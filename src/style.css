@@ -36,8 +36,10 @@ img {
 
 .header .title{
     font-size: 60px;
-    font-weight:900;
+    font-weight:500;
     padding: 15px 40px;
+    font-family: 'Dancing Script', cursive;
+    /* color:black; */
 }
 
 .main .title{
@@ -85,8 +87,18 @@ img {
     width: max(fit-content, 40%);
 }
 
-.comment, .price{
+.price{
     font-size: smaller;
+}
+.comment{
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+    font-weight: bolder;
+    white-space: pre-line; 
+}
+
+.item .name{
+    font-size: larger;
 }
 
 .contact-page{
@@ -100,6 +112,10 @@ img {
     gap: 30px;
 
 
+}
+
+div.content{
+    white-space: pre-line;
 }
 
 .footer{

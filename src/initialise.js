@@ -37,7 +37,7 @@ function initHeader(){
 }
 
 function initMain(){
-    let main = createContactNode();
+    let main = createMenuNode();
     //main.classList.add('main');
     return main;
 }
