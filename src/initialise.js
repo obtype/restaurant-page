@@ -21,6 +21,11 @@ function initHeader(){
     headerList.childNodes[1].textContent = "Menu";
     headerList.childNodes[2].textContent = "Contact";
 
+    headerList.childNodes[0].classList.add('home');
+    headerList.childNodes[1].classList.add('menu');
+    headerList.childNodes[2].classList.add('contact');
+    
+
     
     
     
